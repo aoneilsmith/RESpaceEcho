@@ -1,0 +1,27 @@
+﻿Build started 12/15/2013 5:29:23 PM.
+     1>Project "C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\RESpaceEcho.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _WINDLL /D _WINDOWS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\\" /Fd"C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt plugin.cpp pluginobjects.cpp RackAFXDLL.cpp RESpaceEcho.cpp StereoDelay.cpp DLLModule.cpp
+         DLLModule.cpp
+         StereoDelay.cpp
+         RESpaceEcho.cpp
+         RackAFXDLL.cpp
+         pluginobjects.cpp
+         plugin.cpp
+         Generating Code...
+     1>c:\users\aos\appdata\roaming\rackafx\rackafxprojects\respaceecho\dllmodule.cpp(507): warning C4715: 'CDLLModule::processAudioFrame' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\RESpaceEcho.dll" /NOLOGO User32.lib comdlg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\RESpaceEcho.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\RESpaceEcho.lib" /MACHINE:X86 /SAFESEH /DLL C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\plugin.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\pluginobjects.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\RackAFXDLL.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\RESpaceEcho.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\StereoDelay.obj
+         C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\DLLModule.obj
+     1>plugin.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\RESpaceEcho.lib and object C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\RESpaceEcho.exp
+         RESpaceEcho.vcxproj -> C:\Users\AOS\AppData\Roaming\RackAFX\PlugIns\RESpaceEcho.dll
+     1>Done Building Project "C:\Users\AOS\AppData\Roaming\RackAFX\RackAFXProjects\RESpaceEcho\RESpaceEcho.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.52
